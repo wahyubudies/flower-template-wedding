@@ -853,12 +853,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 158px;
 }
 
+.w-\[120px\]{
+  width: 120px;
+}
+
 .max-w-\[375px\]{
   max-width: 375px;
 }
 
 .max-w-\[226px\]{
   max-width: 226px;
+}
+
+.max-w-\[320px\]{
+  max-width: 320px;
 }
 
 .grow{
@@ -1092,6 +1100,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.75rem;
 }
 
+.py-\[200px\]{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .pt-\[200px\]{
   padding-top: 200px;
 }
@@ -1110,6 +1123,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-16{
   padding-top: 4rem;
+}
+
+.pb-32{
+  padding-bottom: 8rem;
+}
+
+.pb-48{
+  padding-bottom: 12rem;
+}
+
+.pb-44{
+  padding-bottom: 11rem;
 }
 
 .text-left{
