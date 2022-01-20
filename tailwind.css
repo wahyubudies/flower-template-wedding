@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Montserrat:wght@500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    @apply w-2;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    @apply bg-flower-green-level-3 rounded-xl;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    @apply bg-flower-green-level-1 rounded-xl;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-flower-green-level-2;
+}
+
+.active {
+    @apply fill-flower-green-level-1 text-flower-green-level-1;
+}
