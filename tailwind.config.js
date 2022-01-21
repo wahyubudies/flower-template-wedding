@@ -22,7 +22,8 @@ module.exports = {
       },
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif'],
-        'gwendolyn': ['"Gwendolyn"', 'cursive']
+        'gwendolyn': ['"Gwendolyn"', 'cursive'],
+        'elsie-swash-caps': ['"Elsie Swash Caps"', 'cursive']
       }
     },
   },

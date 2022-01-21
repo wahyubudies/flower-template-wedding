@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&family=Gwendolyn:wght@400;700&family=Montserrat:wght@500;600&display=swap');
 
 /*
 ! tailwindcss v3.0.9 | MIT License | https://tailwindcss.com
@@ -517,6 +517,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 15px;
 }
 
+.left-0{
+  left: 0px;
+}
+
 .top-\[216px\]{
   top: 216px;
 }
@@ -563,6 +567,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .-z-10{
   z-index: -10;
+}
+
+.z-20{
+  z-index: 20;
 }
 
 .mx-auto{
@@ -785,8 +793,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 46px;
 }
 
-.w-\[320px\]{
-  width: 320px;
+.w-\[120px\]{
+  width: 120px;
 }
 
 .w-\[156px\]{
@@ -851,10 +859,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[158px\]{
   width: 158px;
-}
-
-.w-\[120px\]{
-  width: 120px;
 }
 
 .max-w-\[375px\]{
@@ -964,6 +968,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(224 224 224 / var(--tw-border-opacity));
 }
 
+.border-flower-green-level-1{
+  --tw-border-opacity: 1;
+  border-color: rgb(127 125 94 / var(--tw-border-opacity));
+}
+
 .bg-\[\#e0e7e2\]{
   --tw-bg-opacity: 1;
   background-color: rgb(224 231 226 / var(--tw-bg-opacity));
@@ -1002,6 +1011,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-flower-green-level-1{
   --tw-bg-opacity: 1;
   background-color: rgb(127 125 94 / var(--tw-bg-opacity));
+}
+
+.bg-flower-green-level-2{
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 231 212 / var(--tw-bg-opacity));
 }
 
 .bg-hero-header{
@@ -1090,6 +1104,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem;
 }
 
+.py-\[200px\]{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .py-16{
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1100,41 +1119,34 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.75rem;
 }
 
-.py-\[200px\]{
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.pt-\[200px\]{
-  padding-top: 200px;
-}
-
-.pb-16{
-  padding-bottom: 4rem;
-}
-
-.pt-32{
+.py-32{
   padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
-.pr-4{
-  padding-right: 1rem;
+.py-36{
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
 .pt-16{
   padding-top: 4rem;
 }
 
-.pb-32{
-  padding-bottom: 8rem;
-}
-
-.pb-48{
-  padding-bottom: 12rem;
-}
-
 .pb-44{
   padding-bottom: 11rem;
+}
+
+.pt-32{
+  padding-top: 8rem;
+}
+
+.pb-16{
+  padding-bottom: 4rem;
+}
+
+.pr-4{
+  padding-right: 1rem;
 }
 
 .text-left{
@@ -1147,6 +1159,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-montserrat{
   font-family: Montserrat, sans-serif;
+}
+
+.font-elsie-swash-caps{
+  font-family: "Elsie Swash Caps", cursive;
 }
 
 .font-gwendolyn{
