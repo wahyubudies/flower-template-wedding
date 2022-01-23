@@ -1,5 +1,5 @@
 // Animation
-// AOS.init();
+AOS.init();
 
 // Count Down
 let countDownDate = new Date("Apr 28, 2022 00:00:00").getTime();
